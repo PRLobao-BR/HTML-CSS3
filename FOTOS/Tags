@@ -1,0 +1,161 @@
+*** TAGS HTML:
+
+<em>MASP</em>
+		1. <em> </em>: indica ênfase de um texto.
+
+<p>
+A Avenida Paulista sempre é assunto. O que será que estão falando a
+respeito no <a href='https://twitter.com/#!/search/Avenida Paulista'
+target='_blank'>Twitter</a>?
+</div>
+
+		1. <a> </a>: da palavra âncora, que cria um link.
+		2. href: indica o endereço que a âncora aponta
+		3. target: indica que o link deve ser aberto em outra página, sem fechar a original.
+
+		1. <h1> </h1>: título principal
+		2. <h2> </h2>: título secundário
+
+<title>O que eu mais gosto em São Paulo</title>
+
+		1.<head> </head> : cabeçalho
+		2.<title> : título para a janela do navegador
+
+<div class="place">
+<h2>Passear na Avenida Paulista!</h2>
+<p>
+Um dos principais centros financeiros da cidade, a Avenida Paulista sempre é assunto. O que será que estão falando a
+respeito no <a href='https://twitter.com/#!/search/Avenida Paulista'
+target='_blank'>Twitter</a>?
+</div>
+
+		1.<div class="place"> : cria uma divisão para "identificar" parte do programa.
+
+
+<img src="avenida-paulista.jpg" alt="O ceu da Avenida Paulista"/>
+
+		1. img src= : insere imagem indicada na origem;
+		2. alt : texto alternativo, caso a imagem não seja encontrada.
+
+<div class='footer'>
+
+		1. <div class='footer'> : adiciona rodapé de página.
+
+<div class='sidenote'>
+		<h3>E existem muitos outros lugares interessantes na cidade...</h3>
+	<ol>
+		<li>O Mercado Municipal.</li>
+		<li>A Sala São Paulo.</li>
+		<li>Os estádios dos principais times de futebol da cidade.</li>
+		<li>Diversos museus, como o Memorial da América Latina, Museu da
+		Língua Portuguesa e o Museu do Ipiranga.
+		</li>
+		<li>E mais!</li>
+	</ol>
+</div>
+
+		1. <ol> : Tag de lista ordenada.
+		2. <li> : itens.
+
+NOVAS TAGS EM HTML5:
+
+		. <section> : seção genérica, geralmente com cabeçalho próprio e seu conteúdo.
+		. <nav> : bloco principal de links de navegação.
+		. <aside> : seção de conteúdo secundário ou auxiliar. Citações, links de referência ou notas adicionais.
+		. <header> : cabeçalho de uma seção específica, contendo títulos, introduções ou similares.
+		. <footer> : rodapé.
+		. <article> : identifica o conteúdo em si - notícia de portal, post ou comentário.
+
+
+
+
+*** TAGS CSS:
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+
+
+		1.width: 0 auto => fixa a largura (em px), com margem superior e inferior com 0, e margens laterais em auto, para centralizar.
+
+.body {
+	background: #FFF1D6 url(images/noise.png)
+	font-family: Verdana, sans-serif;
+	line-height: 1.6;
+
+		1. font-family: tipo de fote utilizada;
+		2. line-height: altura da linha de texto.
+
+.place {
+	border-color: #CCC #999 #999 #CCC;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 10px;
+
+		1.border: sólida de 1px com tons de cinza;
+		2. border-color: direita e baixo alteradas (para #999) sempre top, right, bottom left.
+		3. margin-bottom: coloca 20px abaixo de cada um dos elementos, adicionando espaço entre eles.
+		4. padding: adiciona espaço dentro dele, com 10px de cada lado.
+
+.place h2 {
+	border-bottom: 1px dashed #7E9F19;
+	margin: 0;
+}
+
+		1. place h2 { : só se aplica aos elementos que tenham classe "place" e que contenham um h2.
+
+place {
+	background-color: #CCC;
+
+		1.background: coloca cor de fundo na área indicada.
+
+.place a {
+	color: #2C88A7;
+	font-weight: bold;
+}
+
+		1. color: muda a cor dos links contidos na classe "place";
+		2. font-weight: negrito.
+
+h1:hover {
+	background-color: #7E9F19;
+	color: #FFF;
+	padding: 10px;
+
+		1.  h1:hover - quando passar o mouse em cima do título H1, mudamos a cor do fundo e da letra.
+		2.  outros pseudo-seletores:
+			:focus - para elementos focados pelo teclado, links ou campos de formulário;
+			:visited - para endereços já visitados pelo usuário;
+			:active - para o instante onde o elemento está sendo pressionado pelo mouse.
+			:before - usado para contornar (de tras para frente) uma caixa.
+
+.place img {
+	border: 1px solid #7E9F19;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
+}
+
+.footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+		1. font-size: tamanho da letra;
+		2. text-align: alinhamento ao centro.
+
+
+
+
+
+PAREI NA PAG 45.
+
+
+
+
+
+
+
+
+
+

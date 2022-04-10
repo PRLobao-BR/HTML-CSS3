@@ -1,0 +1,180 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+/* Cor de fundo + Tamanho, cor e tipo de letra */
+body {
+	background-color: #e0a084;
+	}
+
+/* Moldura em cinza*/
+div#interface {
+		width: 800px;
+		height:  150px;
+		background-color: white;
+		margin: 25px auto 0px auto;
+		box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+		padding: 20px 10px 10px 10px;
+	}
+
+div#interface2 {
+		width: 800px;
+		height:  900px;
+		background-color: white;
+		margin: 25px auto 0px auto;
+		box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+		padding: 20px 10px 10px 10px;
+	}
+
+/* Alinhamento dos parágrafos*/
+		p{	
+			text-align: justify;
+			text-indent: 50px;
+	}
+	
+/* H1- ONESITE */
+	header#titulo h1 {
+		font-family: Arial, sans-serif;
+		font-size: 30pt;
+		color: black;
+		text-shadow: 1px 1px 1px rgba(0,0,0, .7);
+		padding: -20px;
+		margin-bottom: -10px;
+	}
+
+/* H2- O meu primeiro site */
+header#titulo h2 {
+		font-family: Bold, sans-serif;
+		font-size: 20pt;
+		color:  green;
+		margin-top: 10px;
+	}
+
+	/* H3- Menu Principal */
+header#titulo h3 {
+		font-family: Arial, sans-serif;
+		font-size: 18pt;
+		color:  #e0a084;
+		position:  absolute;
+		top: 145px;
+		left: 530px;
+	}
+
+	
+	/* H3- Menu Principal */
+header#titulo h3 {
+		font-family: Arial, sans-serif;
+		font-size: 18pt;
+		color:  #e0a084;
+		position:  absolute;
+		top: 145px;
+		left: 530px;
+	}
+	
+/* Borda do campo */
+figure.foto-topo {	
+	position: absolute;
+	border:  4px solid black;
+	opacity: 0.5;
+	box-shadow: 1px 1px 4px black;
+	left: 225px;
+	top: 10px;
+	width: 811px;
+}
+
+/* Foto do campo - Topo */
+figure.foto-topo img {
+	width:  810;
+	height: 130;
+	left: 234;
+	padding: 0px 0px 0px 0px;
+	box-sizing: border-box;	
+}
+
+/* Formatação do Menu */
+nav#Menu {
+	display:  block;
+}
+
+/* Posicionamento do Menu */
+nav#Menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position:  absolute;
+	top: 150px;
+	left: 680px;
+}
+
+/* Conteúdo do Menu */
+nav#Menu li {
+	display: inline-block;
+	background-color: #e0a084;
+	font-family: Arial, sans-serif;
+	padding: 6px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+/* Se o mouse passar por cima da foto */
+nav#Menu li:hover {
+	background-color: #606060;
+}
+
+/* Esconder a palavra Menu Principal */
+nav#Menu h3 {
+	display: block;
+}
+
+/* Cor da letra do Menu - normal */
+nav#Menu a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Cor da letra do Menu - quando mouse passar por cima */
+nav#Menu a:hover {
+	color: #ffffff;
+}
+
+/* Conteúdo principal do site - lado esquerdo */
+section#corpo {
+	display: block;
+	width: 425px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Conteúdo secundário do site - lado direito */
+aside#lateral {
+	display: block;
+	width:  490px;
+	height: 930px;
+	float: right;
+	background-color: lightgrey;
+	padding: 0px;
+	margin-top: 25px;
+	border-right: 1px solid #606060;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+/* Rodapé */
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+/* Rodapé - Alinhamento */
+footer#rodape p {
+	text-align: center;
+}
+
+section#conteudo {
+	display: block;
+	width: 425px;
+	float: left;
+	border-right: 1px solid #606060
+	padding-left: 15px;
+	padding-right: 15px;
+}
