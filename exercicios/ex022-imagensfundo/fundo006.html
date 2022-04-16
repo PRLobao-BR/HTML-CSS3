@@ -10,14 +10,22 @@
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
-            background-size: auto;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* shorthand - background
+                color > image > position> repeat > [size] > attachment
+
+                size = tem que ser fora por enquanto.
+
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,8 +39,13 @@
     <main>
         <h1>Teste</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima obcaecati ducimus laborum a quo dicta rerum deserunt nulla dolorum odio magni vero illum, porro ullam iusto iste repellat earum. Optio?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptate, ipsam quae obcaecati, minus harum impedit repudiandae iure odio voluptas eveniet ab ut voluptates, assumenda inventore? Nesciunt harum saepe ad?</p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit cum iste aspernatur sapiente commodi in dolores quod harum ratione, voluptatem temporibus perspiciatis nihil ad quas veritatis neque, labore quaerat!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptate, ipsam quae obcaecati, minus harum impedit repudiandae iure odio voluptas eveniet ab ut voluptates, assumenda inventore? Nesciunt harum saepe ad?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit cum iste aspernatur sapiente commodi in dolores quod harum ratione, voluptatem temporibus perspiciatis nihil ad quas veritatis neque, labore quaerat!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut possimus nihil voluptatum deleniti veniam. Voluptatum excepturi ipsam sunt quam assumenda laudantium, perspiciatis modi laborum illum facilis earum necessitatibus nulla deserunt.lorem</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ullam accusantium vitae impedit dolor aut? Sapiente deserunt at quod ut iusto suscipit, rerum deleniti minus provident necessitatibus quibusdam repellat sed.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iste obcaecati. Atque amet, tempora ex itaque optio voluptatum non quos dolorem veritatis esse, illum iusto, repellendus id consequuntur nesciunt!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ullam accusantium vitae impedit dolor aut? Sapiente deserunt at quod ut iusto suscipit, rerum deleniti minus provident necessitatibus quibusdam repellat sed.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iste obcaecati. Atque amet, tempora ex itaque optio voluptatum non quos dolorem veritatis esse, illum iusto, repellendus id consequuntur nesciunt!</p>
         
     </main>
 </body>
